@@ -46,20 +46,18 @@ body {
 .back {
     position: absolute;
     display: flex;
-    justify-content: space-around;
+    gap: 10px;
     align-items: center;
     left: 40px;
     top: 40px;
     padding: 10px 20px;
-    width: 120px;
     background-color: var(--secondary);
     color: white;
-    border: none;
     border-radius: 30px;
     font-size: 1.1rem;
     font-weight: bold;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: 0.3s ease-in-out;
     text-decoration: none;
     box-shadow: 0 5px 15px #fd79a866;
 }
@@ -255,5 +253,9 @@ body {
     
     .book-cover {
         max-width: 100%;
+    }
+
+    .back {
+        display: none;
     }
 }
