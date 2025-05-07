@@ -27,7 +27,7 @@ body {
     background: linear-gradient(135deg, var(--primary-color), #A569BD);
     color: white;
     padding: 1.2rem 2rem;
-    position: fixed;
+    position: sticky;
     width: 100%;
     top: 0;
     z-index: 1000;
@@ -64,7 +64,7 @@ body {
 }
 
 .logo i {
-    margin-left: 10px;
+    margin-right: 10px;
     color: var(--secondary-color);
     animation: bounce 2s infinite;
 }
@@ -173,7 +173,6 @@ body {
     justify-content: center;
     text-align: center;
     color: white;
-    margin-top: 80px;
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 
@@ -451,7 +450,7 @@ body {
 
 .social-links {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     gap: 1.2rem;
 }
 
@@ -466,6 +465,7 @@ body {
     justify-content: center;
     transition: var(--transition);
     font-size: 1.2rem;
+    text-decoration: none;
 }
 
 .social-links a:hover {
@@ -530,10 +530,10 @@ body {
 }
 
 .footer-contact p {
-    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
     color: #ddd;
 }
 

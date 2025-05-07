@@ -27,30 +27,6 @@ body {
     position: relative;
 }
 
-.back {
-    position: absolute;
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    left: 40px;
-    top: 40px;
-    padding: 10px 20px;
-    background-color: var(--primary-color);
-    color: white;
-    border-radius: 30px;
-    font-size: 1.1rem;
-    font-weight: bold;
-    cursor: pointer;
-    text-decoration: none;
-    z-index: 1;
-    transition: 0.3s ease-in-out;
-}
-
-.back:hover {
-    background-color: var(--secondary-color);
-    transform: translateY(-3px);
-}
-
 .product-header {
     text-align: center;
     margin-bottom: 40px;
@@ -87,7 +63,7 @@ body {
     background: white;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 10px 30px #00000014;
     transition: 0.3s ease-in-out;
     margin-bottom: 40px;
 }
@@ -214,7 +190,7 @@ body {
     margin-bottom: 15px;
 }
 
-.feature-icon {
+.feature-icons {
     width: 30px;
     height: 30px;
     background: var(--light-color);
@@ -290,7 +266,8 @@ body {
         flex-direction: column;
     }
     
-    .gallery-section, .details-section {
+    .gallery-section,
+    .details-section {
         padding: 20px;
     }
     
@@ -310,11 +287,5 @@ body {
     
     .current-price {
         font-size: 1.8rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .back {
-        display: none;
     }
 }

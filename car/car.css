@@ -54,7 +54,9 @@ body {
     font-size: 1.8rem;
     font-weight: 700;
     display: flex;
+    gap: 10px;
     align-items: center;
+    text-decoration: none;
 }
 
 .logo i {
@@ -112,6 +114,7 @@ body {
     margin-right: 1rem;
     font-size: 1.2rem;
     transition: all 0.3s ease;
+    position: relative;
 }
 
 .nav-icons a:hover {
@@ -136,7 +139,7 @@ body {
 
 /* هيرو section */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1494972308805-463bc619d34e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1473&q=80');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1668415759930-5a9dbe80c488?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -419,6 +422,7 @@ body {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     color: white;
+    text-decoration: none;
     transition: all 0.3s ease;
 }
 
