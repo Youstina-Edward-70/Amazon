@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d8eefe;
+}
+a {
+    text-decoration: none;
+}
+#i {
+    color: gold;
+}
+         /**** Nav Bar****/
+nav {
+    background-color: #3da9fc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px 20px;
+    height: 60px;
+    opacity: 0.9;
+    position: fixed ;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+}
+nav.scrolled {
+    padding: 5px 20px;
+}
+.nav-h {
+    color: #094067;
+}
+.nav-ul {
+    margin-right: 20px;
+}
+.nav-ul li {
+    display: inline-block;
+    margin: 15px;
+}
+.nav-ul a {
+    color: #094067;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: background-color 0.4s ease;
+}
+nav a {
+    color: #094067;
+}
+.nav-ul a:hover {
+    background-color: #eae9e9;
+    color: #3da9fc;
+}
+nav.scrooled{
+    padding: 5px 20px;
+}
+            /******** Fisrt Box ********/
+.main-sec {
+    width: 850px;
+    height: 350px;
+    display: flex;
+    box-shadow: 0 0 5px ;
+    margin-top: 120px;
+    margin-left: 210px;
+    border-radius: 10px;
+    gap: 20px;
+    background-color: white;
+    transition: 0.5s;
+}
+.image {
+    margin: 0px ;
+    display: flex;
+    align-items: center;
+}
+img {
+    width: 350px;
+    height: 100%;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    height: 190px;
+    position: relative;
+    bottom: -27px;
+}
+.p1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #094067;
+}
+.p2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #3da9fc;
+}
+.p3 {
+    color: #5f6c7b;
+    direction: rtl;
+    padding-right: 10px;
+}
+.details p {
+    font-weight: 600;
+}
+.main-sec a {
+    color: #eae9e9;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: #3da9fc;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    transition: 0.4s;
+}
+.main-sec a:hover {
+    color: #3da9fc;
+    background-color: #eae9e9;
+}
+
+            /******** Reviews ********/
+.review {
+    width: 810px;
+    height: 630px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    box-shadow: 0 0 5px ;
+    margin-top: 50px;
+    margin-left: 210px;
+    border-radius: 10px;
+    gap: 0px;
+    background-color: white;
+    transition: 0.4s;
+}
+.review div:hover {
+    transition: 0.2s;
+    transform: translate( 0 , -5px);
+}
+.review h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 30PX;
+}
+.name {
+    font-size: 19px;
+    font-weight: 600;
+}
+            /******** Footer ********/
+footer {
+    background-color: #5f6c7b;
+    opacity: 0.9;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+footer h3 {
+    font-size: 30px;
+    color: #fffffe;
+    
+}
+.container {
+    margin-top: 110px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: start;
+    justify-content: space-around;
+}
+.container li {
+    list-style-type: none;
+}
+.f-div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.f-div1 a {
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+    color: #fffffe;
+    transition: 0.3s;
+}
+.f-div1 a:hover {
+    transform: translate( -5px , 0px);
+    color: black;
+}
+#social {
+    display: flex;
+}
+#social i {
+    background-color:  #3da9fc;
+    padding: 15px;
+    border-radius: 50%;
+    transition: 0.3s; 
+    color: #fffffe;
+}
+#social i:hover {
+    transform: translate( 4px , -5px);
+    background-color: #094067;
+    color: #5f6c7b;
+}
+footer p {
+    display: flex;
+    justify-content: center;
+}
+.f-last {
+    margin-top: 50px;
+    padding: 30px;
+}
+

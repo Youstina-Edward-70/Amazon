@@ -351,6 +351,9 @@ body {
 .product-info {
     padding: 20px;
 }
+.product-info a {
+text-decoration: none;
+}
 
 .product-title {
     font-size: 17px;

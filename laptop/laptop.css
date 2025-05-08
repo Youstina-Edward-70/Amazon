@@ -468,6 +468,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
+    text-decoration: none;
 }
 
 .details-btn:hover {
@@ -486,6 +487,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
     cursor: pointer;
     transition: var(--transition);
 }
